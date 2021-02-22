@@ -1,0 +1,20 @@
+{
+  "name": "qaretest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "qare": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "mocha": "^8.2.1"
+  },
+  "devDependencies": {
+    "cypress": "^6.2.1",
+    "sinon-chai": "^3.5.0"
+  }
+}

@@ -29,7 +29,8 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
 }
 
-
+const Buffer = require ('Buffer')
+/*
 module.exports = (on, config) => {
   on('task', {
     createAccount({ email, password }) {
@@ -57,11 +58,11 @@ module.exports = (on, config) => {
     
   })
 }
-
+*/
 const axios = require('axios')
 /**
  * @type {Cypress.PluginConfig}
- */
+  */
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
